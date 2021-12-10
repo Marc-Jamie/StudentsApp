@@ -1,0 +1,68 @@
+@import url(/design-system/palette.css);
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Button reset */
+
+/* Button value states */
+
+.button-energy--energy-value-100 {
+	background-color: var(--tangerine-100);
+}
+
+.heading--energy-value-100 {
+	color: var(--white);
+}
+
+.button-energy--energy-value-75 {
+	background-color: var(--tangerine-200);
+}
+
+.heading--energy-value-75 {
+	color: var(--white);
+}
+
+.button-energy--energy-value-50 {
+	background-color: var(--tangerine-300);
+}
+
+.heading--energy-value-50 {
+	color: var(--tangerine-100);
+}
+
+.button-energy--energy-value-25 {
+	background-color: var(--tangerine-400);
+}
+
+.heading--energy-value-25 {
+	color: var(--tangerine-100);
+}
+
+.button--reset {
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/* Button energy-level */
+
+.button-energy + .button-energy {
+	margin-top: 8px;
+}
+
+.button-energy {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 4px;
+
+	width: 315px;
+	height: 48px;
+}
