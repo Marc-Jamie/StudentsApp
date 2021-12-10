@@ -1,0 +1,24 @@
+@import url(../palette.css);
+
+.title {
+	position: absolute;
+}
+
+.label {
+	position: absolute;
+	top: 25px;
+}
+.box {
+	border: solid;
+	color: red;
+}
+
+.wave {
+	z-index: 0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+body {
+}
