@@ -1,11 +1,16 @@
+@import url(../palette.css);
+
 body {
 	display: flex;
 }
 
-.star-icon {
+/* Star Icons */
+.rating-icon-star--selected {
+	color: var(--denim-100);
 }
 
-.rating-icon-square {
+.rating-icon-star--unselected {
+	color: var(--denim-200);
 }
 
 .plus-sign {
@@ -15,4 +20,10 @@ body {
 }
 
 .icons-navbar {
+}
+
+.icon-box {
+	padding: 0;
+	width: 24px;
+	height: 24px;
 }
