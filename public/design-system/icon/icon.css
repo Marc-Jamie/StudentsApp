@@ -5,21 +5,79 @@ body {
 }
 
 /* Star Icons */
+
 .rating-icon-star--selected {
 	color: var(--denim-100);
 }
 
 .rating-icon-star--unselected {
-	color: var(--denim-200);
+	color: var(--medium-grey);
 }
 
+.rating-icon-star--outlined {
+	stroke: var(--white);
+}
+
+/* Square Icons */
+
+.rating-icon-square--selected {
+	color: var(--denim-100);
+}
+
+.rating-icon-square--unselected {
+	color: var(--medium-grey);
+}
+
+/* Plus sign */
+
 .plus-sign {
+	color: var(--denim-100);
 }
 
 .check-sign {
+	color: var(--white);
 }
 
-.icons-navbar {
+/* Design navbar */
+
+.navbar-dashboard {
+	color: var(--denim-200);
+}
+
+.navbar-dashboard--active {
+	color: var(--denim-100);
+}
+
+.navbar-buddy {
+	color: var(--denim-200);
+}
+
+.navbar-buddy--active {
+	color: var(--denim-100);
+}
+
+.navbar-group {
+	color: var(--denim-200);
+}
+
+.navbar-group--active {
+	color: var(--denim-100);
+}
+
+.navbar-path {
+	color: var(--denim-200);
+}
+
+.navbar-path--active {
+	color: var(--denim-100);
+}
+
+.navbar-journal {
+	color: var(--denim-200);
+}
+
+.navbar-journal--active {
+	color: var(--denim-100);
 }
 
 .icon-box {
