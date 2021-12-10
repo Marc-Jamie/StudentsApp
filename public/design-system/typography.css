@@ -7,7 +7,7 @@
 .headline,
 .headline--uppercase,
 .label {
-	font-family: "opensans";
+	font-family: "Open Sans", sans-serif;
 }
 
 .title {
@@ -21,28 +21,33 @@
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 24px;
+	color: var(--denim-100);
 }
 
 .body--small {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
+	color: var(--denim-100);
 }
 
 .headline--uppercase {
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 18px;
+	color: var(--denim-100);
 }
 
 .headline {
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 16px;
+	color: var(--denim-100);
 }
 
 .label {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 16px;
+	color: var(--denim-200);
 }
